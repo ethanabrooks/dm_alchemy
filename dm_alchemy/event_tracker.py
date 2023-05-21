@@ -168,6 +168,9 @@ class GameState:
             if tuple(self._stone_node(i).coords) == tuple(stone_node.coords)]
 
   def has_stone_ind(self, stone_ind: int) -> bool:
+    print(f"=============================== stone_ind = {stone_ind} =======")
+    print(f"=============================== existing_stones =======")
+    print(self._existing_stones)
     return stone_ind in self._existing_stones
 
   def has_potion_ind(self, potion_ind: int) -> bool:
