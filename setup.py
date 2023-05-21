@@ -109,7 +109,6 @@ setup(
     },
     install_requires=[
         'absl-py',
-        'dataclasses',
         'dm-env',
         'dm-env-rpc>=1.0.4',
         'dm-tree',
